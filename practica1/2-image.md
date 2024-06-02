@@ -1,4 +1,4 @@
-![image](https://github.com/JexDev13/2024A-ISWD633-GR2/assets/119013519/84d62854-55e3-4325-9327-cd595fbca558)### Indicaciones para la práctica
+### Indicaciones para la práctica
 El contenido solicitado entre paréntesis angulares debe ser reemplazado y los paréntesis angulares deben ser eliminados.
 
 # Imagen
