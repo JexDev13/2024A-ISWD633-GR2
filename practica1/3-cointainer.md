@@ -13,7 +13,7 @@ Crear el contenedor  **srv-web** usando la imagen nginx version alpine
 docker create --name srv-web nginx:alpine
 ```
 
-![Imagen y contenedores](imagenes/docker_create.PNG)
+![Imagen y contenedores](imagenes/docker_create.png)
 
 Si creas un contenedor en Docker sin asignarle un nombre específico utilizando la opción --name, Docker asignará automáticamente un nombre aleatorio al contenedor. Este nombre suele consistir en una combinación de palabras y números.  
 
@@ -106,7 +106,7 @@ Verificar que el contenedor que se eliminó
 docker ps -a --filter "name=practica_1"
 ```
 
-![Imagen y contenedores](imagenes/docker_find.PNG)
+![Imagen y contenedores](imagenes/docker_find.png)
 
 ### Para eliminar un contenedor que esté ejecutándose
 
@@ -127,7 +127,7 @@ Verificar que el contenedor que se eliminó
 docker ps -a --filter "name=srv-web3"
 ```
 
-![Imagen y contenedores](imagenes/docker_delete2.PNG)
+![Imagen y contenedores](imagenes/docker_delete2.png)
 
 
 ### Para inspecionar un contenedor 
@@ -135,4 +135,4 @@ docker ps -a --filter "name=srv-web3"
 Inspeccionar el contenedor **srv-web** 
 # COMPLETAR
 
-![Imagen y contenedores](imagenes/docker_inspect_3.PNG)
+![Imagen y contenedores](imagenes/docker_inspect_3.png)
