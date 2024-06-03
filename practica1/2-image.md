@@ -44,7 +44,7 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker pull nginx:alpine
 ```
 
-![Imagen y contenedores](imagenes/docker_pull_nginx.PNG)
+![Imagen y contenedores](imagenes/docker_pull_nginx.png)
 
 ### Listar imágenes
 
@@ -54,7 +54,7 @@ docker images
 
 # COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
 
-![Imagen y contenedores](imagenes/docker_images.PNG)
+![Imagen y contenedores](imagenes/docker_images.png)
 
 **Identificadores**
 En Docker, se utilizan varios identificadores para diferenciar de manera única los elementos del sistema, como imágenes, contenedores, volúmenes y redes. Estos identificadores son generados automáticamente por Docker y son únicos dentro del contexto del sistema Docker en el que se encuentran. 
@@ -73,8 +73,8 @@ Inspeccionar la imagen hello-world
 docker inspect hello-world
 ```
 
-![Imagen y contenedores](imagenes/docker_inspect_1.PNG)
-![Imagen y contenedores](imagenes/docker_inspect_2.PNG)
+![Imagen y contenedores](imagenes/docker_inspect_1.png)
+![Imagen y contenedores](imagenes/docker_inspect_2.png)
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
 # COMPLETAR
@@ -102,7 +102,7 @@ Eliminar la imagen hello-world
 docker rmi hello-world
 ```
 
-![Imagen y contenedores](imagenes/docker_delete.PNG)
+![Imagen y contenedores](imagenes/docker_delete.png)
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
