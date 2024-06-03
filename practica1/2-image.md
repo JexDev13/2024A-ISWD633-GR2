@@ -5,7 +5,6 @@ El contenido solicitado entre paréntesis angulares debe ser reemplazado y los p
 Es un archivo único que contiene todos los programas, librerías, dependencias y configuraciones necesarias para instalar y/o ejecutar una aplicación o un conjunto de aplicaciones.
 ![Imagen](imagenes/imagen.PNG)
 
-
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
 # COMPLETAR 
 
@@ -31,7 +30,7 @@ Descargar la imagen **hello-world**
 ```
 docker pull hello-world
 ```
-![Imagen y contenedores](imagenes/docker_pull_image.PNG)
+![Imagen y contenedores](imagenes/docker_pull_image.png)
 
 **¿Qué es nginx**
 # COMPLETAR 
